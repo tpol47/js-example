@@ -1,0 +1,7 @@
+const parentElement = document.getElementById('parent')
+console.log('Parent element: ', parentElement)
+const firstChildElement = document.getElementById('first-child-element')
+console.log('First child element: ', firstChildElement)
+const el = parentElement.removeChild(firstChildElement)
+console.log('Parent element (after first child removed): ', parentElement)
+console.log('el', el)
